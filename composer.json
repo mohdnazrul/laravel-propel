@@ -1,0 +1,22 @@
+{
+    "name": "mohdnazrul/laravel-propel",
+    "type": "composer-plugin",
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "10.*",
+        "propel/propel": "^2.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "mohdnazrul\\LaravelPropel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohd Nazrul Bin Mustaffa",
+            "email": "nazrulmustaffa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
