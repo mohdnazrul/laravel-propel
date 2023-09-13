@@ -1,6 +1,6 @@
 <?php
 
- namespace mohdnazrul\PropelLaravel\Auth;
+namespace Propel\PropelLaravel\Auth;
 
 use Illuminate\Contracts\Hashing\Hasher as HasherContract;
 use Illuminate\Contracts\Auth\Authenticatable as UserContract;
@@ -46,7 +46,8 @@ class PropelUserProvider implements UserProviderInterface {
     public function retrieveById($identifier)
     {
 
-        return $this->query->findPK($identifier);
+        return $this->query->getPrimaryKey($identifier);
+        // return $this->query->findPK($identifier);
     }
 
     /**
@@ -95,7 +96,7 @@ class PropelUserProvider implements UserProviderInterface {
             }
         }
 
-        return $query()->findOne();
+        return $query->findOne();
     }
 
 

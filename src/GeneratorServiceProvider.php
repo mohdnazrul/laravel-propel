@@ -1,6 +1,6 @@
 <?php
 
-namespace mohdnazrul\PropelLaravel;
+namespace Propel\PropelLaravel;
 
 use Illuminate\Support\ServiceProvider;
 use Symfony\Component\Finder\Finder;

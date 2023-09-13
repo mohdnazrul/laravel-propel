@@ -1,5 +1,5 @@
 <?php
-namespace Immtech\PropelLaravel\Commands;
+namespace MohdNazrul\LaravelPropel;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Config\Repository as Config;

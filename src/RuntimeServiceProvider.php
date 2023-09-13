@@ -1,5 +1,6 @@
 <?php
-namespace mohdnazrul\PropelLaravel;
+
+namespace Propel\PropelLaravel;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;

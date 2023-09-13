@@ -1,22 +1,34 @@
 {
     "name": "mohdnazrul/laravel-propel",
+    "description": "Propel integration for Laravel framework.",
+    "keywords": [
+        "laravel",
+        "laravel5",
+        "propel",
+        "propel2",
+        "orm",
+        "activerecord",
+        "Active Record"
+    ],
+    "type": "library",
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.0",
         "laravel/framework": "10.*",
         "propel/propel": "^2.0.0"
     },
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "mohdnazrul\\LaravelPropel\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Mohd Nazrul Bin Mustaffa",
             "email": "nazrulmustaffa@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Propel\\PropelLaravel\\": "src"
+        }
+    }
+    
 }
