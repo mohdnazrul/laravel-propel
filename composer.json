@@ -1,6 +1,5 @@
 {
     "name": "mohdnazrul/laravel-propel",
-    "type": "composer-plugin",
     "require": {
         "php": ">=8.1",
         "laravel/framework": "10.*",
